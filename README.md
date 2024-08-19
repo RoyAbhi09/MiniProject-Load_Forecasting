@@ -49,14 +49,11 @@ Where:
 
 The ANN model developed for this project consists of four layers, each containing 100 neurons. The architecture details are as follows:
 
-- **Activation Function**: Rectified Linear Unit (SELU)
+- **Activation Function**: Rectified Linear Unit (RELU)
 - **Optimizer**: Adam optimizer for adaptive learning rate
 
 ### Model Summary
-
-- **Input Layer**: Standardized feature set
-- **Hidden Layers**: 4 layers with 100 neurons each, RELU activation
-- **Output Layer**: 1 neuron for load prediction
+ The model consists of four dense layers: the first with 64 neurons, followed by layers with 32 and 16 neurons, all using ReLU activation. The final layer has 1 neuron with linear activation, ideal for regression tasks.
 
 ## Training and Optimization
 
